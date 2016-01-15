@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfView"
+        mc:Ignorable="d"
+        Title="Информационная безопасность лабораторные работы" MinHeight="600" MinWidth="600" Width="600" Height="600" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem Header="Лабораторная 1" Margin="0,0,-4,-2">
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF05F146" Offset="1"/>
+                            <GradientStop Color="#FF03D3F3"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Label x:Name="label" Content="Модифицированный алгоритм Кардано" HorizontalAlignment="Left" Margin="62,50,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="21.333"/>
+                    <Label x:Name="label1" Content="Вариант 3" HorizontalAlignment="Left" Margin="245,17,0,0" VerticalAlignment="Top" FontFamily="Franklin Gothic Demi" FontSize="16"/>
+                    <StackPanel HorizontalAlignment="Left" Height="433" Margin="76,100,0,0" VerticalAlignment="Top" Width="476">
+                        <Label x:Name="label2" Content="Пожалуйста, введите строку" HorizontalAlignment="Left" Margin="0,0,-116,0" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="abc" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667" TextChanged="textBox_TextChanged" KeyDown="textBox_KeyDown"/>
+                        <Label x:Name="label2_Copy3" Content="код исходного текста" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox3" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667"/>
+                        <Label x:Name="label2_Copy4" Content="побитовое представление текста" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox4" IsReadOnly="True"  HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667"/>
+                        <Label x:Name="label2_Copy5" Content="побитовое представление шифра" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox5" IsReadOnly="True" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667"/>
+                        <Label x:Name="label2_Copy1" Content="шифр" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox1" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667" FontFamily="Times New Roman"/>
+                        <Label x:Name="label2_Copy" Content="зашифрованные символы" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" TextChanged="textBox6_TextChanged" FontSize="14.667"/>
+                        <Label x:Name="label2_Copy2" Content="обратный перевод" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
+                        <TextBox x:Name="textBox2" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

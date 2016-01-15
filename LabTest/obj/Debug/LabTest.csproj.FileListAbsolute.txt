@@ -1,0 +1,8 @@
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\bin\Debug\LabTest.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\bin\Debug\LabTest.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\bin\Debug\core.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\bin\Debug\core.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\obj\Debug\LabTest.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\obj\Debug\LabTest.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\LabTest\obj\Debug\LabTest.pdb

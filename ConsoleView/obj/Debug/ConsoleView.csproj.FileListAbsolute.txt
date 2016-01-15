@@ -1,0 +1,16 @@
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe.config
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.pdb
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.dll
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.pdb
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.csprojResolveAssemblyReference.cache
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.exe
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe.config
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.exe
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.csprojResolveAssemblyReference.cache

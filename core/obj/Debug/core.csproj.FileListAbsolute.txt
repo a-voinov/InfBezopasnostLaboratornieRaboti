@@ -1,0 +1,9 @@
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.dll
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.pdb
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.dll
+c:\users\vojnovaa\documents\visual studio 2013\Projects\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.pdb
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.dll
+C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.pdb
