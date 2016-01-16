@@ -32,7 +32,7 @@ namespace core.Kardano
             int[] codedText = new int[textInBytes.Length];
 
             //шифруем первый символ побитовым сложением
-            codedText[0] = (int)key | textInBytes[0];
+            codedText[0] = (int)key ^ textInBytes[0];
 
             int counter = 0;
 
@@ -61,9 +61,12 @@ namespace core.Kardano
 
                 //шифрование символа
                 codedText[counter] = (int)tempKey ^ num;
+
+                //если 0
+                if (codedText[counter] == 0) codedText[counter] = -1;
             }
             
-            //удаление нулей
+            //удаление ненужных нулей
             int counter2 = 0;
             int[] result = new int[text.Length];
             foreach (int num in codedText)
@@ -73,7 +76,12 @@ namespace core.Kardano
                 {
                     continue;
                 }
-                
+
+                if (num == -1)
+                {
+                    result[counter2] = 0;
+                }
+                else
                 result[counter2] = num;
 
                 counter2++;

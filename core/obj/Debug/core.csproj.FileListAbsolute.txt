@@ -7,3 +7,8 @@ C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core
 C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.csprojResolveAssemblyReference.cache
 C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.dll
 C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.pdb
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.dll
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\core\bin\Debug\core.pdb
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.dll
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\core\obj\Debug\core.pdb

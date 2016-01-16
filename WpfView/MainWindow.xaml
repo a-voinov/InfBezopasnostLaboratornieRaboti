@@ -30,7 +30,7 @@
                         <Label x:Name="label2_Copy1" Content="шифр" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
                         <TextBox x:Name="textBox1" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667" FontFamily="Times New Roman"/>
                         <Label x:Name="label2_Copy" Content="зашифрованные символы" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
-                        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" TextChanged="textBox6_TextChanged" FontSize="14.667"/>
+                        <TextBox x:Name="textBox6" IsReadOnly="True" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" TextChanged="textBox6_TextChanged" FontSize="14.667"/>
                         <Label x:Name="label2_Copy2" Content="обратный перевод" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14.667" Background="Transparent"/>
                         <TextBox x:Name="textBox2" IsReadOnly="True" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" Background="{x:Null}" FontSize="14.667"/>
                     </StackPanel>

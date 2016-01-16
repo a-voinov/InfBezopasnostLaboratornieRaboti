@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Collections;
 
 using core;
@@ -38,33 +28,45 @@ namespace WpfView
         {
             if (e.Key == Key.Enter && textBox.Text != "")
             {
-                //код исходного текста
-                byte[] srcBytes = ByteOperations.GetBytes(textBox.Text);
-                printToBox(textBox3, srcBytes);
+                try
+                {
+                    makeKardano();
+                }
+                catch (System.Exception ex)
+                {
 
-                //побитовое представление текста
-                var bitsSrc = new BitArray(srcBytes);
-                printBitArray(textBox4, bitsSrc);
-
-                //шифр
-                Kardano kardano = new Kardano(2);
-                int[] encrypted = kardano.Encrypt(textBox.Text);
-                printToBox(textBox1, encrypted);
-
-                //зашифрованные символы
-                byte[] encryptedString = ByteOperations.GetBytes(encrypted);
-                textBox6.Clear();
-                textBox6.Text = ByteOperations.GetString(encryptedString).Replace("\0", string.Empty);
-
-                //побитовое представление шифра
-                var bitsCrypted = new BitArray(encryptedString);
-                printBitArray(textBox5, bitsCrypted);
-
-                //обратный перевод
-                textBox2.Clear();
-                textBox2.Text = kardano.Decrypt(encrypted);
-                              
+                    MessageBox.Show("Ошибка в работе программы [" + ex.Message + "]. Попробуйте ввести английскими буквами и без пробелов", "Ошибка!");
+                }                                            
             }
+        }
+
+        void makeKardano()
+        {
+            //код исходного текста
+            byte[] srcBytes = ByteOperations.GetBytes(textBox.Text);
+            printToBox(textBox3, srcBytes);
+
+            //побитовое представление текста
+            var bitsSrc = new BitArray(srcBytes);
+            printBitArray(textBox4, bitsSrc);
+
+            //шифр
+            Kardano kardano = new Kardano(2);
+            int[] encrypted = kardano.Encrypt(textBox.Text);
+            printToBox(textBox1, encrypted);
+
+            //зашифрованные символы
+            byte[] encryptedString = ByteOperations.GetBytes(encrypted);
+            textBox6.Clear();
+            textBox6.Text = ByteOperations.GetString(encryptedString).Replace("\0", string.Empty);
+
+            //побитовое представление шифра
+            var bitsCrypted = new BitArray(encryptedString);
+            printBitArray(textBox5, bitsCrypted);
+
+            //обратный перевод
+            textBox2.Clear();
+            textBox2.Text = kardano.Decrypt(encrypted);
         }
 
         void printBitArray(TextBox box, BitArray bits)
@@ -123,7 +125,7 @@ namespace WpfView
             box.Clear();
             foreach (byte num in array)
             {
-                if (num == 0) continue;
+                //if (num == 0) continue;
                 box.Text += num + " ";
             }
         }
