@@ -42,11 +42,13 @@ namespace core.Kardano
             {
                 counter++;
 
-                if (byt == 0 || counter==1)
+                if (byt == 0 || byt == 4 || counter == 1)
                 {
                     continue;
                 }
-                              
+
+                
+
                 //модифицирование ключа
                 try
                 {
@@ -60,10 +62,10 @@ namespace core.Kardano
                 int num = (int)textInBytes[counter - 1];
 
                 //шифрование символа
-                codedText[counter] = (int)tempKey ^ num;
+                codedText[counter - 1] = (int)tempKey ^ num;
 
                 //если 0
-                if (codedText[counter] == 0) codedText[counter] = -1;
+                if (codedText[counter - 1] == 0) codedText[counter - 1] = -1;
             }
             
             //удаление ненужных нулей

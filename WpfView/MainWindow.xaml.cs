@@ -14,6 +14,8 @@ namespace WpfView
     /// </summary>
     public partial class MainWindow : Window
     {
+        const uint KARDANO_DEFAULT_KEY = 2;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -34,11 +36,12 @@ namespace WpfView
                 }
                 catch (System.Exception ex)
                 {
-
                     MessageBox.Show("Ошибка в работе программы [" + ex.Message + "]. Попробуйте ввести английскими буквами и без пробелов", "Ошибка!");
                 }                                            
             }
         }
+       
+        uint kardanoKey = KARDANO_DEFAULT_KEY;        
 
         void makeKardano()
         {
@@ -51,7 +54,7 @@ namespace WpfView
             printBitArray(textBox4, bitsSrc);
 
             //шифр
-            Kardano kardano = new Kardano(2);
+            Kardano kardano = new Kardano(kardanoKey);
             int[] encrypted = kardano.Encrypt(textBox.Text);
             printToBox(textBox1, encrypted);
 
@@ -115,7 +118,7 @@ namespace WpfView
             box.Clear();
             foreach (byte num in array)
             {
-                if (num == 0) continue;
+                if (num == 0 || num == 4) continue;
                 box.Text += num + " ";
             }
         }
@@ -135,6 +138,32 @@ namespace WpfView
         private void textBox6_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void textBox7_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string text = textBox7.Text;
+            int convertedText = 0;
+            int.TryParse(text, out convertedText);
+
+            if (convertedText > 0 && convertedText <= 16)
+            {
+                textBox7.Text = text;
+                kardanoKey = (uint)convertedText;
+            }
+            else
+            {
+                textBox7.Text = "";
+            }
+        }
+
+        private void textBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (textBox7.Text == "")
+            {
+                MessageBox.Show("Введите ключ (1-16)");
+                textBox7.Focus();
+            }
         }
     }
 }
