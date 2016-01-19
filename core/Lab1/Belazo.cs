@@ -4,25 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace core.Kardano
+namespace core.Belazo
 {
-    public class Kardano
+    public class Belazo
     {
         private const int BITS = 16;
 
         public uint key;
-        
-        public Kardano(uint _k)
+
+        public Belazo(uint _k)
         {
-            //key = ByteOperations.GetBytes(_k);
             key = _k;
         }
 
-        /// <summary>
-        /// Шифрование Кардано
-        /// </summary>
-        /// <param name="text"></param>
-        /// <returns></returns>
         public int[] Encrypt(string text)
         {
             //переводим строку в массив байтов
@@ -36,25 +30,17 @@ namespace core.Kardano
 
             int counter = 0;
 
-            uint tempKey = key;
+            //ключем становится первый зашифрованный символ
+            uint tempKey = (uint)codedText[0];
+
             //Для шифрования последующих символов исходного текста 
             foreach (byte byt in textInBytes)
             {
                 counter++;
 
-                if (byt == 0 || byt == 4 || counter == 1)
+                if (counter == 1)
                 {
                     continue;
-                }
-
-                //модифицирование ключа
-                try
-                {
-                    tempKey = ByteOperations.shiftLeft(tempKey, 1, BITS);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
                 }
 
                 int num = (int)textInBytes[counter - 1];
@@ -62,9 +48,9 @@ namespace core.Kardano
                 //шифрование символа
                 codedText[counter - 1] = (int)tempKey ^ num;
 
-                //если 0
-                if (codedText[counter - 1] == 0) codedText[counter - 1] = -1;
-            }                   
+                //модифицирование ключа
+                tempKey = (uint)codedText[counter - 1];
+            }
 
             return codedText;
         }
@@ -76,30 +62,24 @@ namespace core.Kardano
 
             int counter = 0;
 
-            uint tempKey = key;
+            //расщифровываем первый символ побитовым сложением
+            encodedText[0] = (int)key ^ encrypted[0];
+
+            int oldNum = encrypted[0];
             //Для расшифорвки последующих символов исходного текста 
             foreach (int num in encrypted)
             {
-                if (num == 0)
+                counter++;
+
+                if (counter == 1)
                 {
                     continue;
                 }
 
                 //расшифровка символа
-                encodedText[counter] = (int)tempKey ^ num;
+                encodedText[counter - 1] = num ^ oldNum;
 
-                //модифицирование ключа
-                try
-                {
-                    tempKey = ByteOperations.shiftLeft(tempKey, 1, BITS);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-              
-
-                counter++;
+                oldNum = num;
             }
 
             byte[] bytes = ByteOperations.GetBytes(encodedText);
@@ -108,6 +88,5 @@ namespace core.Kardano
 
             return byteString.Replace("\0", string.Empty);
         }
-
     }
 }

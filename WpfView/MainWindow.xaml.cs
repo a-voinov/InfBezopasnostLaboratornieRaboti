@@ -6,6 +6,7 @@ using System.Collections;
 
 using core;
 using core.Kardano;
+using core.Belazo;
 
 namespace WpfView
 {
