@@ -40,8 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ByteOperations.cs" />
-    <Compile Include="Lab1\Belazo.cs" />
     <Compile Include="Lab1\Kardano.cs" />
+    <Compile Include="Lab2\Cezar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -30,3 +30,8 @@ C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaborato
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.g.resources
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.Properties.Resources.resources
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.csproj.GenerateResource.Cache
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.baml
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab2.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab2.baml
