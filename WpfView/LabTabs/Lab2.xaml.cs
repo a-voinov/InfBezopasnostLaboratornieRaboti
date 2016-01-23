@@ -28,7 +28,9 @@ namespace WpfView.LabTabs
         }
 
         string forbiddenChars = "!@#$%^&*()_+1234567890~/?|';:.<>,";
-        string smallChars = "abcdefghijklmnopqrstuvwxyz";
+        string smallChars = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+
+        Alphabet language = Alphabet.English;
 
         void makeCezar()
         {
@@ -36,7 +38,7 @@ namespace WpfView.LabTabs
             {
                 try
                 {
-                    Cezar cezar = new Cezar(keyWordBox.Text, Convert.ToByte(keyBox.Text));
+                    Cezar cezar = new Cezar(keyWordBox.Text, Convert.ToByte(keyBox.Text), language);
                     alphabetBox.Text = cezar.alphabetString;
 
                     codedTextBox.Text = cezar.Encrypt(textBox.Text);
@@ -53,13 +55,37 @@ namespace WpfView.LabTabs
         {
             if (e.Key == Key.Enter)
             {
-                makeCezar();
+                if (checkLanguage(keyWordBox))
+                {
+                    makeCezar();
+                }
+                else
+                {
+                    MessageBox.Show("Текст для шифрования и ключевое слово должны быть на одном языке!");
+                }
             }
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
+        {            
             checkTextBox(textBox);
+
+            if (textBox.Text.Length == 1)
+            {
+                if (textBox.Text.Intersect(Cezar.ALPHABET_EN).Any())
+                {
+                    language = Alphabet.English;
+                }
+                if (textBox.Text.Intersect(Cezar.ALPHABET_RU).Any())
+                {
+                    language = Alphabet.Russian;
+                }
+            }
+            else
+            {
+                checkLanguage(textBox);
+            }
+                
         }
 
         void checkTextBox(TextBox box)
@@ -77,13 +103,38 @@ namespace WpfView.LabTabs
             }
         }
 
+        bool checkLanguage(TextBox box)
+        {
+            bool result = true;
+
+            if (language == Alphabet.English)
+            {
+                if (box.Text.Intersect(Cezar.ALPHABET_RU).Any())
+                {
+                    box.Clear();
+                    result = false;
+                }
+            }
+
+            if (language == Alphabet.Russian)
+            {
+                if (box.Text.Intersect(Cezar.ALPHABET_EN).Any())
+                {
+                    box.Clear();
+                    result = false;
+                }
+            }
+
+            return result;
+        }
+
         private void keyBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string text = keyBox.Text;
             int convertedText = 0;
             int.TryParse(text, out convertedText);
 
-            if (convertedText > 0 && convertedText <= 25)
+            if (convertedText >= 0 && convertedText <= 25)
             {
                 keyBox.Text = text;
             }
@@ -96,6 +147,7 @@ namespace WpfView.LabTabs
         private void keyWordBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             checkTextBox(keyWordBox);
+            checkLanguage(keyWordBox);
         }
     }
 }

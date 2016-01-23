@@ -7,26 +7,54 @@ using System.Threading.Tasks;
 
 namespace core.Cezar
 {
+    public enum Alphabet
+    {
+        English,
+        Russian
+    }
+
     public class Cezar
     {
-        private const string ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        public const string ALPHABET_EN = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        public const string ALPHABET_RU = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЩЬЫЪЭЮЯ";
 
         public string keyWord { get; private set; }
         public byte key { get; private set; }
 
+        private Alphabet language;
+
         private OrderedDictionary orderedAlphabet;
-        Dictionary<char, char> alphabet = new Dictionary<char, char>();
+        private Dictionary<char, char> alphabet = new Dictionary<char, char>();
         public string alphabetString { get; private set; }
 
-        public Cezar(string _keyWord, byte _key)
+        public Cezar(string _keyWord, byte _key, Alphabet _language)
         {
             keyWord = _keyWord;
             key = _key;
+            language = _language;
 
-            FillOrderedAlphabet(ALPHABET);
-            alphabetToString();
-            FillAlphabet();
-            
+            CheckKeyWord();
+
+            if (language == Alphabet.English)
+            {
+                FillOrderedAlphabet(ALPHABET_EN);
+                alphabetToString();
+                FillAlphabet(ALPHABET_EN);
+            }
+
+            if (language == Alphabet.Russian)
+            {
+                FillOrderedAlphabet(ALPHABET_RU);
+                alphabetToString();
+                FillAlphabet(ALPHABET_RU);
+            }
+
+        }
+
+        private void CheckKeyWord()
+        {
+            keyWord = keyWord.Replace(" ", String.Empty);
+            keyWord = new String(keyWord.ToCharArray().Distinct().ToArray());
         }
 
         private void alphabetToString()
@@ -76,13 +104,13 @@ namespace core.Cezar
             return result;
         }
 
-        private void FillAlphabet()
+        private void FillAlphabet(string _alphabet)
         {
             char[] values = GetAlphabetValues();
             //заполнить обычный словарь
             for (int i = 0; i < values.Length; i++)
             {
-                alphabet.Add(ALPHABET[i], values[i]);
+                alphabet.Add(_alphabet[i], values[i]);
             }
         }
 
@@ -120,7 +148,7 @@ namespace core.Cezar
                         lastLetterPosition = i + key;
                     }
                     else
-                        lastLetterPosition = cycleCounter;
+                        lastLetterPosition = cycleCounter - 1;
                 }
             }
 

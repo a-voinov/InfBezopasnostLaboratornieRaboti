@@ -8,7 +8,7 @@ namespace LabTest
     [TestClass]
     public class CezarTest
     {
-        public Cezar cezar = new Cezar("DIPLOMAT", 5);
+        public Cezar cezar = new Cezar("DIPLOMAT", 5, Alphabet.English);
 
         [TestMethod]
         public void CezarAlphabetTest()
