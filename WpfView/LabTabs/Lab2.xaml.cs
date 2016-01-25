@@ -43,6 +43,7 @@ namespace WpfView.LabTabs
 
                     codedTextBox.Text = cezar.Encrypt(textBox.Text);
                     decodedTextBox.Text = cezar.Decrypt(codedTextBox.Text);
+                    entropyBox.Text = cezar.ShannonEntropy(textBox.Text).ToString();
                 }
                 catch (Exception ex)
                 {

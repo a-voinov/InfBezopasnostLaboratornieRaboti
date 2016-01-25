@@ -33,6 +33,9 @@
             <TextBox x:Name="codedTextBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
             <Label x:Name="label0_Copy1" Content="Обратный перевод" Height="28" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
             <TextBox x:Name="decodedTextBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
+            <Label x:Name="labelEntropy" Content="Энтропия" Height="28" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
+            <TextBox x:Name="entropyBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
+
 
         </StackPanel>
         <Label x:Name="label2" Content="Система Цезаря с ключевым словом" HorizontalContentAlignment="Center" Margin="10,28.04,10,5" Height= "33" FontFamily="Gill Sans Ultra Bold" FontSize="21.333"/>
