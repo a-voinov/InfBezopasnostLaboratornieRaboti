@@ -1,0 +1,38 @@
+﻿<TabItem x:Class="WpfView.LabTabs.LabTab2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfView.LabTabs"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Header="Лабораторная 2"
+             >
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF05F146" Offset="1"/>
+                <GradientStop Color="#FF03D3F3"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label1" Content="Вариант 28" FontFamily="Franklin Gothic Demi" FontSize="16" HorizontalContentAlignment="Center" Margin="10,0" Height="28.04" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Шифр Виженера-Тритемия-Кардано" HorizontalContentAlignment="Center" Margin="10,28.04,10,5" Height= "33" FontFamily="Gill Sans Ultra Bold" FontSize="21.333"/>
+        <StackPanel Grid.Row="1">
+            <Label x:Name="label_0" Content="Текст для шифрования" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="163" FontSize="13.333"/>
+            <TextBox x:Name="textBox" Height="27" Text="НЕТ" TextWrapping="Wrap" Background="{x:Null}" KeyDown="textBox_KeyDown" TextChanged="textBox_TextChanged"/>
+            <Label x:Name="label_Copy" Content="Ключевая буква" Height="35" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
+            <TextBox x:Name="keyLetterBox" Height="27" Text="К" TextWrapping="Wrap" Background="{x:Null}" KeyDown="textBox_KeyDown" TextChanged="keyLetterBox_TextChanged"/>
+            <Label x:Name="label0" Content="Шифр" Height="28" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
+            <TextBox x:Name="codedTextBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
+            <Label x:Name="label0_Copy1" Content="Обратный перевод" Height="28" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
+            <TextBox x:Name="decodedTextBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
+            <Label x:Name="labelEntropy" Content="Энтропия" Height="28" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="146" FontSize="13.333"/>
+            <TextBox x:Name="entropyBox" IsReadOnly="True" Height="27" TextWrapping="Wrap" Background="{x:Null}"/>
+
+        </StackPanel>
+    </Grid>
+</TabItem>

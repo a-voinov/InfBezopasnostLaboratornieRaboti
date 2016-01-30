@@ -14,15 +14,16 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using core.Cezar;
+using core;
 
 namespace WpfView.LabTabs
 {
     /// <summary>
     /// Interaction logic for Lab2.xaml
     /// </summary>
-    public partial class Lab2 : TabItem
+    public partial class KP_Sym : TabItem
     {
-        public Lab2()
+        public KP_Sym()
         {
             InitializeComponent();
         }
@@ -43,7 +44,7 @@ namespace WpfView.LabTabs
 
                     codedTextBox.Text = cezar.Encrypt(textBox.Text);
                     decodedTextBox.Text = cezar.Decrypt(codedTextBox.Text);
-                    entropyBox.Text = cezar.ShannonEntropy(textBox.Text).ToString();
+                    entropyBox.Text = Entropy.Calculate(textBox.Text).ToString();
                 }
                 catch (Exception ex)
                 {

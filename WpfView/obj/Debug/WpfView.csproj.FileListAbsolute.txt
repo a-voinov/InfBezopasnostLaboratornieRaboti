@@ -15,23 +15,25 @@ C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\W
 C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.dll
 C:\Users\Антон\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.pdb
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.exe.config
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.exe
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.pdb
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.exe
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.pdb
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.dll
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.pdb
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.csprojResolveAssemblyReference.cache
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\KP_Sym.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\MainWindow.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\App.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView_MarkupCompile.cache
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView_MarkupCompile.lref
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.baml
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\KP_Sym.baml
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\MainWindow.baml
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.g.resources
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.Properties.Resources.resources
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.csproj.GenerateResource.Cache
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.g.cs
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.baml
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab2.g.cs
-C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab2.baml
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.exe
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.pdb
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.baml

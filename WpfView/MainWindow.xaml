@@ -9,6 +9,7 @@
         Title="Информационная безопасность лабораторные работы" MinHeight="600" MinWidth="600" Width="600" Height="662" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <TabControl x:Name="tabControl">
         <local:Lab1 />
-        <labs:Lab2/>
+        <labs:LabTab2 />
+        <labs:KP_Sym/>
     </TabControl>
 </Window>
