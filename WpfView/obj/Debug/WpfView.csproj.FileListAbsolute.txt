@@ -37,3 +37,5 @@ C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaborato
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.pdb
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.baml
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.baml

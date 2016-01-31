@@ -12,7 +12,7 @@ namespace WpfView
         {
             InitializeComponent();
 
-            tabControl.SelectedIndex = 1;
+            tabControl.SelectedIndex = 2;
         }
        
     }

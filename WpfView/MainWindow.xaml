@@ -10,6 +10,7 @@
     <TabControl x:Name="tabControl">
         <local:Lab1 />
         <labs:LabTab2 />
+        <labs:Lab3 />
         <labs:KP_Sym/>
     </TabControl>
 </Window>
