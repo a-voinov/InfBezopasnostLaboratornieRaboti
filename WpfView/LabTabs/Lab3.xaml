@@ -23,10 +23,20 @@
         <StackPanel Grid.Row="1">
             <Label x:Name="label_0" Content="Начальное случайное 16 битное число" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
             <TextBox x:Name="randomBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
-            <Label x:Name="label_2" Content="Полный цикл сдвигов в численном представлении" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
-            <TextBox x:Name="numBox" IsReadOnly="True" Height="100" TextWrapping="Wrap" Background="{x:Null}"/>
-            <Label x:Name="label_1" Content="Полный цикл сдвигов в побитовом представлении" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
-            <TextBox x:Name="bitBox" IsReadOnly="True" Height="100" TextWrapping="Wrap" Background="{x:Null}"/>
+            <Label x:Name="numLabel" Content="Сдвиг чисел" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="numBox" IsReadOnly="True" Height="100" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Background="{x:Null}"/>
+           <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Button Name="StartBtn" Grid.Column="0" Content="&lt;&lt;" Visibility="Hidden" Height="25" Click="StartBtn_Click"/>
+                <Button Name="PrevBtn" Grid.Column="1" Content="Назад" Visibility="Hidden" Height="25" Click="PrevBtn_Click" />
+                <Button Name="NextBtn" Grid.Column="2" Content="Далее" Visibility="Hidden" Height="25" Click="NextBtn_Click" />
+                <Button Name="FinishBtn" Grid.Column="3" Content="&gt;&gt;" Visibility="Hidden" Height="25" Click="FinishBtn_Click" />
+            </Grid>
             <Button Content="Сгенерировать" Click="Button_Click" Height="50" />
         </StackPanel>
     </Grid>

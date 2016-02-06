@@ -76,6 +76,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="LabTabs\NodTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +99,9 @@
     </Compile>
     <Compile Include="LabTabs\LabTab2.xaml.cs">
       <DependentUpon>LabTab2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabTabs\NodTab.xaml.cs">
+      <DependentUpon>NodTab.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

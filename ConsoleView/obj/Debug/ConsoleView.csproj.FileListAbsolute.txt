@@ -22,3 +22,11 @@ C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaborato
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.csprojResolveAssemblyReference.cache
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.exe
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe.config
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.exe
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.exe
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\ConsoleView.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.dll
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\bin\Debug\core.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\ConsoleView\obj\Debug\ConsoleView.csprojResolveAssemblyReference.cache

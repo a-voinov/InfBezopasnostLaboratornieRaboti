@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:WpfView"
         xmlns:labs ="clr-namespace:WpfView.LabTabs"
         mc:Ignorable="d"
-        Title="Информационная безопасность лабораторные работы" MinHeight="600" MinWidth="600" Width="600" Height="662" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
-    <TabControl x:Name="tabControl">
+        Title="Информационная безопасность лабораторные работы" MinHeight="600" MinWidth="600" Width="600" Height="662" WindowStartupLocation="CenterScreen">
+    <TabControl x:Name="tabControl" Margin="0,0,0,-29">
         <local:Lab1 />
         <labs:LabTab2 />
+        <labs:NodTab />
         <labs:Lab3 />
         <labs:KP_Sym/>
     </TabControl>

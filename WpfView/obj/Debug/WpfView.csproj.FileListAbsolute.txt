@@ -39,3 +39,32 @@ C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaborato
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.baml
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.exe.config
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.exe
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.exe
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\WpfView.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.dll
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\bin\Debug\core.pdb
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.csprojResolveAssemblyReference.cache
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\KP_Sym.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\MainWindow.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\App.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView_MarkupCompile.cache
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView_MarkupCompile.lref
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab1.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\KP_Sym.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab3.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\LabTab2.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\MainWindow.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.g.resources
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.Properties.Resources.resources
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\WpfView.csproj.GenerateResource.Cache
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.baml
+C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.baml
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.g.cs

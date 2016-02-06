@@ -22,7 +22,7 @@ namespace WpfView.LabTabs
             InitializeComponent();
         }
 
-        string forbiddenChars = "!@#$%^&*()_+1234567890~/?|';:.<>,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        string forbiddenChars = @"\!@#$%^&*()_+1234567890~/?|';:.<>,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         string smallChars = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 
         private void textBox_KeyDown(object sender, KeyEventArgs e)

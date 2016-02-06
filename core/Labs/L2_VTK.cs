@@ -8,7 +8,9 @@ namespace core.VTK
 {
     public class VTK
     {
-        public const string ALPHABET_RU = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+        private const char ALPHABET_RU_FIRST = 'А';
+        private const char ALPHABET_RU_LAST = 'Я';
+        private const int ALPHABET_RU_LENGTH = ALPHABET_RU_LAST - ALPHABET_RU_FIRST + 1;
 
         public char keyLetter { get; private set; }
 
@@ -24,8 +26,8 @@ namespace core.VTK
             foreach (char letter in text)
             {
                 if (letter == ' ') { result += ' '; continue; }
-                                             
-                char coded = (char)(((letter + tempKeyLetter) % ALPHABET_RU.Length) + ALPHABET_RU[0]); 
+
+                char coded = (char)(((letter + tempKeyLetter) % ALPHABET_RU_LENGTH) + ALPHABET_RU_FIRST); 
                 result += coded;
                 tempKeyLetter = coded;
             }
@@ -52,7 +54,7 @@ namespace core.VTK
                     else
                         tempKeyLetter = text[keyCounter - 1]; 
                 }
-                char coded = (char)(mod(letter - tempKeyLetter, ALPHABET_RU.Length) + ALPHABET_RU[0]);
+                char coded = (char)(mod(letter - tempKeyLetter, ALPHABET_RU_LENGTH) + ALPHABET_RU_FIRST);
                 result += coded;
                 keyCounter++;
             }
