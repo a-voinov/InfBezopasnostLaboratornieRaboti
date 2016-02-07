@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,12 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ByteOperations.cs" />
-    <Compile Include="Entropy.cs" />
+    <Compile Include="Labs\Entropy.cs" />
     <Compile Include="Labs\Euclid.cs" />
     <Compile Include="Labs\L1_Kardano.cs" />
     <Compile Include="KP\Cezar.cs" />
     <Compile Include="Labs\L2_VTK.cs" />
     <Compile Include="Labs\L3_LFSR.cs" />
+    <Compile Include="Labs\L4_Rabin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vector3.cs" />
   </ItemGroup>

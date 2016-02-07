@@ -12,6 +12,7 @@
         <labs:LabTab2 />
         <labs:NodTab />
         <labs:Lab3 />
+        <labs:Lab4 />
         <labs:KP_Sym/>
     </TabControl>
 </Window>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using core.Kardano;
+using core.Rabin;
 
 namespace ConsoleView
 {
@@ -27,17 +27,18 @@ namespace ConsoleView
 
         static void Main(string[] args)
         {
-            Kardano kardano = new Kardano(2);
-
-            string text = Console.ReadLine();
-            int[] encrypted = kardano.Encrypt(text);
-            Print(encrypted);
-
-            Console.WriteLine();
-            Console.WriteLine(kardano.Decrypt(encrypted));
-
-            Console.ReadKey();
-
+            
+            do
+            {
+                Rabin rabin = new Rabin();
+                rabin.StartTests(100); 
+                Console.WriteLine(rabin.PrimeNumber);
+                Console.ReadKey();
+                Console.Clear();
+            
+            }
+            while (true);
+           
         }
     }
 }

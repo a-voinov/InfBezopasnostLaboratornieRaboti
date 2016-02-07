@@ -72,6 +72,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="LabTabs\Lab4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LabTabs\LabTab2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,6 +100,9 @@
     </Compile>
     <Compile Include="LabTabs\Lab3.xaml.cs">
       <DependentUpon>Lab3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabTabs\Lab4.xaml.cs">
+      <DependentUpon>Lab4.xaml</DependentUpon>
     </Compile>
     <Compile Include="LabTabs\LabTab2.xaml.cs">
       <DependentUpon>LabTab2.xaml</DependentUpon>
