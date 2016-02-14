@@ -68,3 +68,5 @@ C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\Lab
 C:\Users\VojnovAA\Desktop\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.g.cs
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.baml
 C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\NodTab.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab4.g.cs
+C:\Users\Антон\Documents\Visual Studio 2015\Projects\InfBezopasnostLaboratornieRaboti\WpfView\obj\Debug\LabTabs\Lab4.baml

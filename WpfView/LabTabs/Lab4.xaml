@@ -8,6 +8,22 @@
              d:DesignHeight="300" d:DesignWidth="300"
              Header="Лабораторная 4">
     <Grid>
-            
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF05F146" Offset="1"/>
+                <GradientStop Color="#FF03D3F3"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label1" Content="Вариант 1" FontFamily="Franklin Gothic Demi" FontSize="16" HorizontalContentAlignment="Center" Margin="10,0" Height="28.04" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Метод Рабина-Миллера" HorizontalContentAlignment="Center" Margin="10,28.04,10,5" Height= "33" FontFamily="Gill Sans Ultra Bold" FontSize="21.333"/>
+        <StackPanel Grid.Row="1">
+            <Label x:Name="label_0" Content="Простое число (предположительно) до 35536" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="primeBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+            <Button Content="Сгенерировать" Click="Button_Click" Height="50" />
+        </StackPanel>
     </Grid>
 </TabItem>

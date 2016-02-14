@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using core.Rabin;
+
 namespace WpfView.LabTabs
 {
     /// <summary>
@@ -20,9 +22,19 @@ namespace WpfView.LabTabs
     /// </summary>
     public partial class Lab4 : TabItem
     {
+        private const int TESTS_COUNT = 100;
+
         public Lab4()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Rabin rabin = new Rabin();
+            rabin.StartTests(TESTS_COUNT);
+            primeBox.Text = rabin.PrimeNumber.ToString();
+
         }
     }
 }

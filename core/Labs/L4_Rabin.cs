@@ -113,9 +113,8 @@ namespace core.Rabin
             p = random.Next(2, Int16.MaxValue);
 
             bool isEven = p % 2 == 0;
-            bool notTwo = p != 2;
 
-            if (isEven && notTwo)
+            if (isEven)
             {
                 p += 1;
             }
