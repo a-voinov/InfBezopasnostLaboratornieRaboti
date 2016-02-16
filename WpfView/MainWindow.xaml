@@ -14,5 +14,6 @@
         <labs:Lab3 />
         <labs:Lab4 />
         <labs:KP_Sym/>
+        <labs:KP_Asym/>
     </TabControl>
 </Window>

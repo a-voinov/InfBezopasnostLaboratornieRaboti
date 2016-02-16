@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ByteOperations.cs" />
+    <Compile Include="KP\DiffieHellman.cs" />
     <Compile Include="Labs\Entropy.cs" />
     <Compile Include="Labs\Euclid.cs" />
     <Compile Include="Labs\L1_Kardano.cs" />

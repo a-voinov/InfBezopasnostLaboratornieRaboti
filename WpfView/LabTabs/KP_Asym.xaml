@@ -1,0 +1,52 @@
+﻿<TabItem x:Class="WpfView.LabTabs.KP_Asym"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfView.LabTabs"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Header="КП  Асимметричные криптоалгоритмы">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF05F146" Offset="1"/>
+                <GradientStop Color="#FF03D3F3"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label1" Content="Вариант 6" FontFamily="Franklin Gothic Demi" FontSize="16" HorizontalContentAlignment="Center" Margin="10,0" Height="28.04" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Протокол Диффи-Хеллмана" HorizontalContentAlignment="Center" Margin="10,28.04,10,5" Height= "33" FontFamily="Gill Sans Ultra Bold" FontSize="21.333"/>
+        <StackPanel Grid.Row="1">
+
+            <Label x:Name="label_0" Content="Сильно простое число до 35536" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="pBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_1" Content="Генератор поля" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="gBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_2" Content="Секретный ключ пользователя А" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="xBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_3" Content="Секретный ключ пользователя Б" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="yBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_4" Content="Открытый ключ пользователя А" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="kABox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_5" Content="Открытый ключ пользователя Б" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="kBBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_6" Content="Сеансовый ключ пользователя А" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="kSABox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Label x:Name="label_7" Content="Сеансовый ключ пользователя Б" Height="26" RenderTransformOrigin="0.435,0.502" HorizontalAlignment="Left" Width="Auto" FontSize="13.333"/>
+            <TextBox x:Name="kSBBox" IsReadOnly="True" Height="30" TextWrapping="Wrap" Background="{x:Null}"/>
+
+            <Button Content="Сгенерировать" Height="50" Click="Button_Click" />
+        </StackPanel>
+    </Grid>
+</TabItem>

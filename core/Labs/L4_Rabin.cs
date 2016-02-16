@@ -42,6 +42,11 @@ namespace core.Rabin
             }
         }
 
+        internal void StartTests(object tEST_COUNT)
+        {
+            throw new NotImplementedException();
+        }
+
         private BigInteger[] x;
         private Random random = new Random();
 
@@ -80,6 +85,41 @@ namespace core.Rabin
 
             }
             while (counter != _testCount);
+        }
+
+        /// <summary>
+        /// Вернет true если число простое
+        /// </summary>
+        public bool StartTests(int _testNum, int _testCount)
+        {
+            p = _testNum;
+            int counter = 0;
+
+            if (_testNum % 2 == 0) return false;
+
+            do
+            {
+
+                GenerateB();
+
+                if (CheckCompositeP())
+                {
+                    return false;
+                }
+
+                if (answer == Answer.ProbablyPrime)
+                {
+                    counter++;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+            while (counter != _testCount);
+            
+            return true;
         }
 
         /// <summary>
